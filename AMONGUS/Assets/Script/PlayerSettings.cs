@@ -9,14 +9,5 @@ public enum ECtrlType {
 public class PlayerSettings : MonoBehaviour
 {
     public static ECtrlType ctrlType;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
