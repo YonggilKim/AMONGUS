@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ECtrlType { 
+public enum EControlType { 
     Mouse,
     keyboardMouse
 }
 public class PlayerSettings : MonoBehaviour
 {
-    public static ECtrlType controlType;
+    public static EControlType controlType;
     public static string nickname;
 
 }

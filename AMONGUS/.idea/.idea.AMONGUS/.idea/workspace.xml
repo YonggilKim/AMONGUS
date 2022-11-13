@@ -8,14 +8,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Character/Scripts/ChracterMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Character/Scripts/LobbyChracterMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/AmongUsRoomManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/AmongUsRoomPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CrewFloater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/FloatingCrew.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerColor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/RoomManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SortingSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SpawnPositions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SpriteSorter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/GameRoom/Script/GameRoomSettingsUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Online UI/Scripts/CreateRoomUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Online UI/Scripts/OnlineUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.searcher@4.9.1/Samples~/Editor/SearcherExampleHostWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,6 +45,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\AMONGUS.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\GilsProj\AMONGUS\AMONGUS\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\GilsProj\AMONGUS\AMONGUS -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -56,10 +71,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="27900">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19836">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="27900" />
+      <option name="pid" value="19836" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -76,7 +91,11 @@
       <option name="presentableId" value="Default" />
       <updated>1668265783679</updated>
       <workItem from="1668265789520" duration="8169000" />
-      <workItem from="1668357228569" duration="3425000" />
+      <workItem from="1668357228569" duration="4308000" />
+      <workItem from="1668366633407" duration="38000" />
+      <workItem from="1668366796614" duration="698000" />
+      <workItem from="1668367878757" duration="2306000" />
+      <workItem from="1668372269666" duration="5915000" />
     </task>
     <servers />
   </component>
@@ -104,19 +123,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Script/SettingsUI.cs</url>
-          <line>17</line>
-          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\Script\SettingsUI.cs" initialLine="17" containingFunctionPresentation="method 'OnEnable'">
-            <startOffsets>
-              <option value="468" />
-            </startOffsets>
-            <endOffsets>
-              <option value="503" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/UI/Online UI/Scripts/CreateRoomUI.cs</url>
           <line>26</line>
           <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\UI\Online UI\Scripts\CreateRoomUI.cs" initialLine="26" isMultiMethodBreakpoint="true">
@@ -142,6 +148,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Mirror/Core/NetworkManager.cs</url>
+          <line>409</line>
+          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\Mirror\Core\NetworkManager.cs" initialLine="409" containingFunctionPresentation="method 'StartHost'">
+            <startOffsets>
+              <option value="18187" />
+            </startOffsets>
+            <endOffsets>
+              <option value="18236" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Mirror/Components/NetworkRoomManager.cs</url>
+          <line>163</line>
+          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\Mirror\Components\NetworkRoomManager.cs" initialLine="163" containingFunctionPresentation="method 'SceneLoadedForPlayer'">
+            <startOffsets>
+              <option value="6178" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6276" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Mirror/Components/NetworkRoomManager.cs</url>
+          <line>148</line>
+          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\Mirror\Components\NetworkRoomManager.cs" initialLine="148" containingFunctionPresentation="method 'OnServerReady'">
+            <startOffsets>
+              <option value="5590" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5644" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

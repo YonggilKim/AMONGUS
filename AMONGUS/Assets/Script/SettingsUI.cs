@@ -17,11 +17,11 @@ public class SettingsUI : MonoBehaviour
     {
         switch (PlayerSettings.controlType)
         {
-            case ECtrlType.Mouse:
+            case EControlType.Mouse:
                 MounseCtrlButton.image.color = Color.green;
                 keyboardMounseCtrlButton.image.color = Color.white;
                 break;
-            case ECtrlType.keyboardMouse:
+            case EControlType.keyboardMouse:
 
                 MounseCtrlButton.image.color = Color.white;
                 keyboardMounseCtrlButton.image.color = Color.green;
@@ -30,14 +30,14 @@ public class SettingsUI : MonoBehaviour
     }
     public void SetControlMode(int ctrlType)
     {
-        PlayerSettings.controlType = (ECtrlType)ctrlType;
+        PlayerSettings.controlType = (EControlType)ctrlType;
         switch (PlayerSettings.controlType)
         {
-            case ECtrlType.Mouse:
+            case EControlType.Mouse:
                 MounseCtrlButton.image.color = Color.green;
                 keyboardMounseCtrlButton.image.color = Color.white;
                 break;
-            case ECtrlType.keyboardMouse:
+            case EControlType.keyboardMouse:
 
                 MounseCtrlButton.image.color = Color.white;
                 keyboardMounseCtrlButton.image.color = Color.green;

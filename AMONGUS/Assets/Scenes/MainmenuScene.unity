@@ -2405,7 +2405,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 470598108}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1093257946}
+        m_TargetAssemblyTypeName: OnlineUI, Assembly-CSharp
+        m_MethodName: OnClickEnterGameRoomButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &470598108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5531,12 +5543,13 @@ MonoBehaviour:
   onlineScene: Assets/Scenes/GameRoom.unity
   transport: {fileID: 1343479647}
   networkAddress: localhost
-  maxConnections: 100
+  maxConnections: 5
   authenticator: {fileID: 0}
   playerPrefab: {fileID: 3026877192205096852, guid: 4686198f3686f1e428a54633a6447041, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
-  spawnPrefabs: []
+  spawnPrefabs:
+  - {fileID: 894490574655374613, guid: b0b79ceaf839b1645a2a1a15c836aaa4, type: 3}
   timeInterpolationGui: 0
   showRoomGUI: 1
   minPlayers: 1
@@ -5545,7 +5558,7 @@ MonoBehaviour:
   GameplayScene: Assets/Scenes/GamePlayScene.unity
   _allPlayersReady: 0
   roomSlots: []
-  clientIndex: 0
+  clientIndex: 2
 --- !u!4 &1343479646
 Transform:
   m_ObjectHideFlags: 0
@@ -5578,8 +5591,8 @@ MonoBehaviour:
   NoDelay: 1
   Interval: 10
   Timeout: 10000
-  FastResend: 2
-  CongestionWindow: 0
+  FastResend: 0
+  CongestionWindow: 1
   SendWindowSize: 4096
   ReceiveWindowSize: 4096
   MaxRetransmit: 40
