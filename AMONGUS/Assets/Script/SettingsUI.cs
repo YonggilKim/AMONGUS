@@ -15,7 +15,7 @@ public class SettingsUI : MonoBehaviour
     }
     private void OnEnable()
     {
-        switch (PlayerSettings.ctrlType)
+        switch (PlayerSettings.controlType)
         {
             case ECtrlType.Mouse:
                 MounseCtrlButton.image.color = Color.green;
@@ -30,8 +30,8 @@ public class SettingsUI : MonoBehaviour
     }
     public void SetControlMode(int ctrlType)
     {
-        PlayerSettings.ctrlType = (ECtrlType)ctrlType;
-        switch (PlayerSettings.ctrlType)
+        PlayerSettings.controlType = (ECtrlType)ctrlType;
+        switch (PlayerSettings.controlType)
         {
             case ECtrlType.Mouse:
                 MounseCtrlButton.image.color = Color.green;

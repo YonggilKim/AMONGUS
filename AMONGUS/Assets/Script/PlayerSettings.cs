@@ -8,6 +8,7 @@ public enum ECtrlType {
 }
 public class PlayerSettings : MonoBehaviour
 {
-    public static ECtrlType ctrlType;
+    public static ECtrlType controlType;
+    public static string nickname;
 
 }
