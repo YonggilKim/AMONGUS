@@ -8,9 +8,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/AmongUsRoomPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CrewFloater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/FloatingCrew.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/RoomManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Online UI/Scripts/CreateRoomUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Online UI/Scripts/OnlineUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.searcher@4.9.1/Samples~/Editor/SearcherExampleHostWindow.cs" root0="SKIP_HIGHLIGHTING" />
@@ -74,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668265783679</updated>
       <workItem from="1668265789520" duration="8169000" />
-      <workItem from="1668357228569" duration="2393000" />
+      <workItem from="1668357228569" duration="3425000" />
     </task>
     <servers />
   </component>
