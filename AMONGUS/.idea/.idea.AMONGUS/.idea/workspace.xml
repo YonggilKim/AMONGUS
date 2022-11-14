@@ -10,6 +10,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Character/Scripts/ChracterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Character/Scripts/LobbyChracterMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DetectDisable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Map/Script/CustomizeLaptop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Map/Script/OutlineObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/AmongUsRoomManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/AmongUsRoomPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CrewFloater.cs" root0="FORCE_HIGHLIGHTING" />
@@ -18,7 +21,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/SortingSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SpawnPositions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SpriteSorter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/GameRoom/Script/ColorSelectButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/GameRoom/Script/CustomizeUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/GameRoom/Script/GameRoomSettingsUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/GameRoom/Script/LobbyUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Online UI/Scripts/CreateRoomUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/Online UI/Scripts/OnlineUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
@@ -33,17 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.5113636&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.69017094",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Build\AMONGUS.exe" />
@@ -95,7 +101,7 @@
       <workItem from="1668366633407" duration="38000" />
       <workItem from="1668366796614" duration="698000" />
       <workItem from="1668367878757" duration="2306000" />
-      <workItem from="1668372269666" duration="5915000" />
+      <workItem from="1668372269666" duration="18479000" />
     </task>
     <servers />
   </component>
@@ -150,45 +156,49 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Mirror/Core/NetworkManager.cs</url>
-          <line>409</line>
-          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\Mirror\Core\NetworkManager.cs" initialLine="409" containingFunctionPresentation="method 'StartHost'">
+          <url>file://$PROJECT_DIR$/Assets/Character/Scripts/ChracterMover.cs</url>
+          <line>18</line>
+          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\Character\Scripts\ChracterMover.cs" initialLine="18" containingFunctionPresentation="method 'SetPlayerColor_Hook'">
             <startOffsets>
-              <option value="18187" />
+              <option value="510" />
             </startOffsets>
             <endOffsets>
-              <option value="18236" />
+              <option value="537" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Mirror/Components/NetworkRoomManager.cs</url>
-          <line>163</line>
-          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\Mirror\Components\NetworkRoomManager.cs" initialLine="163" containingFunctionPresentation="method 'SceneLoadedForPlayer'">
+          <url>file://$PROJECT_DIR$/Assets/Script/AmongUsRoomPlayer.cs</url>
+          <line>33</line>
+          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\Script\AmongUsRoomPlayer.cs" initialLine="33" containingFunctionPresentation="method 'SetPlayerColor_hook'">
             <startOffsets>
-              <option value="6178" />
+              <option value="909" />
             </startOffsets>
             <endOffsets>
-              <option value="6276" />
+              <option value="965" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Mirror/Components/NetworkRoomManager.cs</url>
-          <line>148</line>
-          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\Mirror\Components\NetworkRoomManager.cs" initialLine="148" containingFunctionPresentation="method 'OnServerReady'">
+          <url>file://$PROJECT_DIR$/Assets/DetectDisable.cs</url>
+          <line>9</line>
+          <properties documentPath="D:\GilsProj\AMONGUS\AMONGUS\Assets\DetectDisable.cs" initialLine="9" containingFunctionPresentation="method 'OnDisable'">
             <startOffsets>
-              <option value="5590" />
+              <option value="182" />
             </startOffsets>
             <endOffsets>
-              <option value="5644" />
+              <option value="225" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
