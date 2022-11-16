@@ -7,6 +7,16 @@ public class SpawnPositions : MonoBehaviour
     [SerializeField] private Transform[] positions;
 
     private int index;
+
+    public int Index
+    {
+        get
+        {
+            return index;
+            
+        }
+    }
+
     // Start is called before the first frame update
     public Vector3 GetSpawnPosition()
     {

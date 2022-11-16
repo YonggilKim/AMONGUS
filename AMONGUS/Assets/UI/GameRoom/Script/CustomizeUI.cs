@@ -66,15 +66,23 @@
             }
         }
 
+        public void UpdateSelectColorButton(EPlayerColor color)
+        {
+            colorSelectButtons[(int)color].SetIntertactable(false);
+        }
+        public void UpdateUnselectColorButton(EPlayerColor color)
+        {
+            colorSelectButtons[(int)color].SetIntertactable((true));
+        }
         public void Open()
         {
-            AmongUsRoomPlayer.MyRoomPlayer.lobbyPlayerChracter.isMoveable = false;
+            AmongUsRoomPlayer.MyRoomPlayer.lobbyPlayerChracter.IsMoveable = false;
             gameObject.SetActive((true));
         }
 
         public void Close()
         {
-            AmongUsRoomPlayer.MyRoomPlayer.lobbyPlayerChracter.isMoveable = true;
+            AmongUsRoomPlayer.MyRoomPlayer.lobbyPlayerChracter.IsMoveable = true;
             gameObject.SetActive((false));
         }
     }

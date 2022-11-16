@@ -8,7 +8,25 @@ using Unity.VisualScripting;
 public class ChracterMover : NetworkBehaviour
 {
     private Animator animator;
-    public bool isMoveable;
+    private bool isMoveable;
+
+    public bool IsMoveable
+    {
+        get
+        {
+            return isMoveable;
+        }
+        set
+        {
+            if (!value)
+            {
+                animator.SetBool("ismMove", false);
+            }
+ 
+            isMoveable = value;
+        }
+    }
+
     [SyncVar]
     public float speed = 2f;
 

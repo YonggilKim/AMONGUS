@@ -26,7 +26,7 @@ public class LobbyChracterMover : ChracterMover
             
         if (hasAuthority)
         {
-            isMoveable = true;
+            IsMoveable = true;
         }
     }
 
